@@ -1,0 +1,14 @@
+.footer {
+    /* Penser à revoir */
+    position : absolute;
+    bottom   : 0;
+    min-width: 100%;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.col {
+    align-items: center;
+}
