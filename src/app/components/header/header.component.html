@@ -16,7 +16,8 @@
                     Features
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" *ngFor="let feature of featuresArray" href=feature.url>{{feature.name}}</a>
+                    <a class="dropdown-item" *ngFor="let feature of featuresArray" routerLink={{feature.url}}
+                        routerLinkActive="active">{{feature.name}}</a>
                 </div>
             </li>
         </ul>
@@ -28,3 +29,5 @@
         </form>
     </div>
 </nav>
+
+<router-outlet></router-outlet>

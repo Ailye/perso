@@ -1,6 +1,6 @@
 .footer {
     /* Penser à revoir */
-    position : absolute;
+    position : relative;
     bottom   : 0;
     min-width: 100%;
 }

@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
   currentFeature: any;
 
   featuresArray = [
-    { name: "Tableau de compétences (TODO)", url: "url1" },
+    { name: "Tableau de compétences (TODO)", url: "/skills" },
     { name: "CV et projet professionnel", url: "url2" },
     { name: "Compteur de mot (TODO)", url: "url3" },
     { name: "Générateur de citation (TODO)", url: "url4" },
