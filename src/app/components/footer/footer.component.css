@@ -3,6 +3,7 @@
     position : relative;
     bottom   : 0;
     min-width: 100%;
+    margin-top: 20px;
 }
 
 .card-body {
